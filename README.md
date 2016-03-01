@@ -7,7 +7,9 @@ After checking out this repo, run
 
 then
 
-`java -cp target/egineering_dropwizard_client-1.0-SNAPSHOT.jar:target/dependency/* com.instrumental_java_client_test.expectedbehavior.app.App`
+```
+java -cp target/egineering_dropwizard_client-1.0-SNAPSHOT.jar:target/dependency/* com.instrumental_java_client_test.expectedbehavior.app.App
+```
 
 The example sends metric directly to Instrumental and also through a registry. You can view all metrics sent to Instrumental from this example by making a graph with the query `instrumental.java.*`
 
