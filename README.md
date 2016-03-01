@@ -1,5 +1,5 @@
 ## Example project for the Instrumental reporter for Dropwizard
-This is simple example application using the [Instrumental reporter for Dropwizard](https://github.com/egineering-llc/metrics-instrumental).
+This is a simple example application using the [Instrumental reporter for Dropwizard](https://github.com/egineering-llc/metrics-instrumental).
 
 After checking out this repo:
 
