@@ -5,11 +5,11 @@ After checking out this repo:
 
 1) Change the API key to your Instrumental project key
 
-2) Build with `mvn clean dependency:copy-dependencies package`
+2) Build with `mvn install`
 
 3) Run
 ```
-java -cp target/egineering_dropwizard_client-1.0-SNAPSHOT.jar:target/dependency/* com.instrumental_java_client_test.expectedbehavior.app.App
+mvn exec:java -Dexec.mainClass="com.instrumental_java_client_test.expectedbehavior.app.App"
 ```
 
 Remember to re-run the maven command if you edit the project.
